@@ -1,0 +1,45 @@
+# Core Dependencies
+openai==1.54.3
+pydantic==2.10.2
+python-dotenv==1.0.1
+requests==2.32.3
+
+# Langchain and AI Framework
+langchain==0.3.8
+langchain-openai==0.2.8
+langchain-community==0.3.8
+
+# Tracing and Observability  
+langfuse==2.56.0
+
+# Vector Store Support (for potential RAG extensions)
+chromadb==0.5.20
+faiss-cpu==1.8.0
+pinecone-client==5.0.1
+
+# Database Support
+sqlalchemy==2.0.35
+
+# Image Processing
+Pillow==10.4.0
+
+# Testing Framework
+pytest==8.3.4
+pytest-mock==3.14.0
+
+# Development Tools
+black==24.10.0
+isort==5.13.2
+flake8==7.1.1
+
+# Additional Utilities
+pathlib2==2.3.7  # Enhanced path handling
+
+# Optional: Google AI Support (for Gemini Vision)
+google-generativeai==0.8.3
+
+# Optional: Anthropic Support (for Claude Vision)
+anthropic==0.40.0
+
+# HTTP Client (pinned for OpenAI SDK compatibility)
+httpx==0.27.2
